@@ -1,75 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>References - FinAI</title>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Charles Darwin — References and Bibliography</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700;800&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header class="main-header">
-        <div class="container">
-            <h1 class="logo"><a href="index.html">FinAI</a></h1>
-            <nav class="main-nav">
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="applications.html">Applications</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                    <li><a href="references.html" class="active">References</a></li>
-                </ul>
-            </nav>
-            <div class="menu-toggle" id="mobile-menu">
-                <i class="fas fa-bars"></i>
-            </div>
+  <header class="site-header">
+    <nav class="site-nav">
+      <a class="brand" href="index.html" aria-label="Charles Darwin Home">
+        <svg class="logo-svg" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <path fill="currentColor" d="M12 2c4.97 0 9 4.03 9 9 0 4.42-3.2 8.1-7.4 8.86-.42.08-.85-.17-.95-.6-.14-.63-.3-1.47-.42-2.39-.13-.95-.98-1.66-1.94-1.66H8.5c-1.38 0-2.5-1.12-2.5-2.5V12c0-2.76 3.22-5 6-5 1.76 0 3.35.74 4.49 1.94C15.86 5.9 14.1 4 12 4 8.13 4 5 7.13 5 11v1c0 2.21 1.79 4 4 4h1.79c.34 0 .62.23.69.56.17.81.36 1.6.55 2.22C17.84 18.36 21 14.59 21 11c0-4.97-4.03-9-9-9Z"/>
+        </svg>
+        <span class="brand-text">Darwin</span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="voyage.html">The Voyage</a></li>
+        <li><a href="theory.html">The Theory</a></li>
+        <li><a href="works.html">Key Works</a></li>
+        <li><a class="active" href="references.html">References</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main class="content">
+    <section class="content-section">
+      <article class="media-grid">
+        <div class="media-text">
+          <h1>Further Reading and Sources</h1>
+          <h2>Primary Sources</h2>
+          <ul>
+            <li>On the Origin of Species by Means of Natural Selection, or the Preservation of Favoured Races in the Struggle for Life (1859)</li>
+            <li>The Voyage of the Beagle (Journal of Researches) (1839)</li>
+            <li>The Descent of Man, and Selection in Relation to Sex (1871)</li>
+          </ul>
+          <h2>Academic/Secondary Sources</h2>
+          <ul>
+            <li>Desmond, Adrian, and James Moore. Darwin (1991)</li>
+            <li>Additional academic biographies, journals, and educational websites consulted for context</li>
+          </ul>
+          <h2>Online Resources</h2>
+          <ul>
+            <li><a href="https://darwin-online.org.uk/" target="_blank" rel="noopener">The Complete Works of Charles Darwin Online</a></li>
+            <li><a href="https://www.darwinproject.ac.uk/" target="_blank" rel="noopener">The Darwin Correspondence Project</a></li>
+            <li><a href="https://www.amnh.org/research/biology/evolution" target="_blank" rel="noopener">American Museum of Natural History: Evolution Resources</a></li>
+          </ul>
         </div>
-    </header>
-
-    <main>
-        <section id="references-section" class="references-section">
-            <div class="container">
-                <h2>References</h2>
-                <div class="reference-list">
-                    <div class="ref-item">
-                        <p>IBM (2024) <em>AI in Financial Services</em>. Available at: [Insert IBM link here] (Accessed: Day Month Year).</p>
-                    </div>
-                    <div class="ref-item">
-                        <p>Deloitte (2023) <em>The AI Revolution in Financial Markets</em>. Available at: [Insert Deloitte link here] (Accessed: Day Month Year).</p>
-                    </div>
-                    <div class="ref-item">
-                        <p>PwC (2024) <em>Financial Services Technology 2025 and Beyond</em>. Available at: [Insert PwC link here] (Accessed: Day Month Year).</p>
-                    </div>
-                    <div class="ref-item">
-                        <p>Accenture (2024) <em>Artificial Intelligence in Finance</em>. Available at: [Insert Accenture link here] (Accessed: Day Month Year).</p>
-                    </div>
-                    <div class="ref-item">
-                        <p>World Economic Forum (2024) <em>The Future of AI in Global Finance</em>. Available at: [Insert WEF link here] (Accessed: Day Month Year).</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </main>
-
-    <footer class="main-footer">
-        <div class="container">
-            <p>&copy; 2024 FinAI. All rights reserved.</p>
-            <div class="footer-links">
-                <a href="index.html">Home</a>
-                <a href="about.html">About</a>
-                <a href="applications.html">Applications</a>
-                <a href="contact.html">Contact</a>
-                <a href="references.html">References</a>
-            </div>
-            <div class="social-icons">
-                <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
-                <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
-                <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
-            </div>
-        </div>
-    </footer>
-
-    <script src="script.js"></script>
+        <figure class="media-figure">
+          <img src="/images/nineth.jpg" alt="Library shelves with books" loading="lazy">
+          <figcaption>Explore these sources for deeper study.</figcaption>
+        </figure>
+      </article>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <p>&copy; 2024 Charles Darwin Evolution Site. All rights reserved.</p>
+  </footer>
 </body>
 </html>
